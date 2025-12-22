@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background: #f0f0f0;
+}
+
+.form-container {
+  margin-bottom: 20px;
+}
+
+input {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 250px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.tag-container {
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border: 2px solid #333;
+  border-radius: 10px;
+  position: relative;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  background: #333;
+  border-radius: 50%;
+  position: absolute;
+  top: -15px;
+  left: calc(50% - 15px);
+}
