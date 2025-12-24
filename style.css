@@ -4,6 +4,10 @@ body {
   background-size: cover;
 }
 
+h2 {
+  color: white;
+}
+
 input {
   display: block;
   margin: 10px auto;
