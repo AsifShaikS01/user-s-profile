@@ -1,8 +1,8 @@
 body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  padding: 20px;
-  background: #f0f0f0;
+  background-image: url("AsifShaikS01/user-s-profile/abstract-digital-grid-black-background.jpg");
+  background-size: cover;     
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .form-container {
