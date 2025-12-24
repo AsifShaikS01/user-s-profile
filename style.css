@@ -1,6 +1,9 @@
 body {
   background-image: url("abstract-digital-grid-black-background.jpg");
+  background-attachment: fixed;
+  background-size: cover;
 }
+
 input {
   display: block;
   margin: 10px auto;
