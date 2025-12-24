@@ -1,14 +1,6 @@
 body {
-  background-image: url("AsifShaikS01/user-s-profile/abstract-digital-grid-black-background.jpg");
-  background-size: cover;     
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url("abstract-digital-grid-black-background.jpg");
 }
-
-.form-container {
-  margin-bottom: 20px;
-}
-
 input {
   display: block;
   margin: 10px auto;
