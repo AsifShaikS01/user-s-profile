@@ -2,20 +2,10 @@ function generateTag() {
   const name = document.getElementById("name").value.trim();
   const number = document.getElementById("number").value.trim();
   const email = document.getElementById("email").value.trim();
-
+  
   if (!/^[0-9]+$/.test(number)) {
-        alert("Enter numbers only in Mobile Number field");
-        return false;
-      }
-
-  if (number.length !== 10) {
-      alert("Mobile number must be 10 digits");
-      return false;
-    }
-
-  if (!name || !number || !email) {
-    alert("Please fill all fields.");
-    return;
+    alert("Enter numbers only in Mobile Number field");
+    return false;
   }
 
   document.getElementById("tagName").textContent = name;
