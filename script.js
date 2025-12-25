@@ -9,6 +9,9 @@ function generateTag() {
 } else if (number.length !== 10) {
   alert("Mobile number contains 10 digits");
   return false;
+} else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+  alert("Enter a valid email address");
+  return false;
 } else if (!/^[0-9]+$/.test(number)) {
   alert("Enter numbers only in mobile number field");
   return false;
