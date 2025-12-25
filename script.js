@@ -4,19 +4,17 @@ function generateTag() {
   const email = document.getElementById("email").value.trim();
   
   if (!/^[0-9]+$/.test(number)) {
-    alert("Enter numbers only in Mobile Number field");
-    return false;
-  }
-
-  if (number.length !== 10) {
-    alert("Mobile number must be 10 digits");
-    return false;
-  }
-
-  if (!name || !number || !email) {
-    alert("Please fill all fields.");
-    return;
-  }
+  alert("Enter numbers only");
+  return false;
+} else if (number.length !== 10) {
+  alert("Must be 10 digits");
+  return false;
+} else if (!name || !number || !email) {
+  alert("Fill all fields");
+  return false;
+} else {
+  return true;
+}
 
   document.getElementById("tagName").textContent = name;
   document.getElementById("tagNumber").textContent = number;
