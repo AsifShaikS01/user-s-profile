@@ -8,6 +8,16 @@ function generateTag() {
     return false;
   }
 
+  if (number.length !== 10) {
+    alert("Mobile number must be 10 digits");
+    return false;
+  }
+
+  if (!name || !number || !email) {
+    alert("Please fill all fields.");
+    return;
+  }
+
   document.getElementById("tagName").textContent = name;
   document.getElementById("tagNumber").textContent = number;
   document.getElementById("tagEmail").textContent = email;
