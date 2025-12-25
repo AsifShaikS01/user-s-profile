@@ -44,7 +44,7 @@ button {
   height: 70px;
   background-image: url('man.png'); 
   background-size: cover;      
-  background-position: left; 
+  background-position: center; 
   border-radius: 50%;          
   position: right;          
   top: -1px;
