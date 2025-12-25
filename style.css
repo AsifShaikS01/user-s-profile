@@ -43,7 +43,7 @@ button {
 .circle {
   width: 100px;
   height: 100px;
-  background: blue;
+  background-image: url('AsifShaikS01/user-s-profile/person.jpeg');
   border-radius: 100%;
   position: absolute;
   top: -15px;
