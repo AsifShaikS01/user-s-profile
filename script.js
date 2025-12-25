@@ -1,7 +1,7 @@
 function generateTag() {
-  const name = document.getElementById("name").value;
-  const number = document.getElementById("number").value;
-  const email = document.getElementById("email").value;
+  const name = document.getElementById("name").value.trim();
+  const number = document.getElementById("number").value.trim();
+  const email = document.getElementById("email").value.trim();
 
   if (!/^[0-9]+$/.test(number)) {
         alert("Enter numbers only in Mobile Number field");
@@ -39,15 +39,6 @@ function generateTag() {
       link.download = "id_tag.png"; // filename
       link.href = canvas.toDataURL(); // image data
       link.click(); // triggers download
-    });
-  };
-
-  downloadBtn.onclick = () => {
-    html2canvas(tag).then((canvas) => {
-      const link = document.createElement("a");
-      link.download = "id_tag.png";
-      link.href = canvas.toDataURL();
-      link.click();
     });
   };
 }
