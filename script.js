@@ -12,6 +12,12 @@ function generateTag() {
   document.getElementById("tagNumber").textContent = number;
   document.getElementById("tagEmail").textContent = email;
 
+    if (!/^[0-9]+$/.test(number)) {
+        alert("Enter numbers only in Mobile Number field");
+        return false;
+      }
+
+
   const tag = document.getElementById("tag");
   tag.style.display = "block";
 
