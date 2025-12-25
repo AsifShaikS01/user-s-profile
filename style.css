@@ -25,16 +25,20 @@ button {
   width: 300px;
   margin: 20px auto;
   padding: 30px;
-  background: white;
   border: 2px solid #333;
   border-radius: 10px;
   position: relative;
+  
+  background-image: url('abstract-digital-grid-black-background.jpg'); 
+  background-size: cover;  
+  background-position: center; 
+  background-repeat: no-repeat;
 }
 
 .circle {
   width: 30px;
   height: 30px;
-  background: green;
+  background: blue;
   border-radius: 100%;
   position: absolute;
   top: -15px;
