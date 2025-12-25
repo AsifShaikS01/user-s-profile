@@ -24,7 +24,7 @@ button {
 .tag-container {
   width: 300px;
   margin: 20px auto;
-  padding: 20px;
+  padding: 30px;
   background: white;
   border: 2px solid #333;
   border-radius: 10px;
@@ -34,8 +34,8 @@ button {
 .circle {
   width: 30px;
   height: 30px;
-  background: #333;
-  border-radius: 50%;
+  background: green;
+  border-radius: 100%;
   position: absolute;
   top: -15px;
   left: calc(50% - 15px);
