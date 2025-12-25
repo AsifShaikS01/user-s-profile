@@ -2,15 +2,15 @@ function generateTag() {
   const name = document.getElementById("name").value.trim();
   const number = document.getElementById("number").value.trim();
   const email = document.getElementById("email").value.trim();
-  
-  if (!/^[0-9]+$/.test(number)) {
-  alert("Enter numbers only");
+
+  if (!name || !number || !email) {
+  alert("Enter all the above fields");
   return false;
 } else if (number.length !== 10) {
   alert("Must be 10 digits");
   return false;
-} else if (!name || !number || !email) {
-  alert("Fill all fields");
+} else if (!/^[0-9]+$/.test(number)) {
+  alert("Enter numbers only");
   return false;
 } else {
   return true;
@@ -24,7 +24,6 @@ function generateTag() {
       this.value = this.value.replace(/[^0-9]/g, ""); // removes non-numeric characters
     });
   
-
   const tag = document.getElementById("tag");
   tag.style.display = "block";
 
