@@ -22,8 +22,6 @@ function generateTag() {
   document.getElementById("tagNumber").textContent = number;
   document.getElementById("tagEmail").textContent = email;
 
-  return false; 
-    }
     document.getElementById("number").addEventListener("input", function() {
       this.value = this.value.replace(/[^0-9]/g, ""); // removes non-numeric characters
     });
