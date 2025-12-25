@@ -4,13 +4,13 @@ function generateTag() {
   const email = document.getElementById("email").value.trim();
 
   if (!name || !number || !email) {
-  alert("Enter all the above fields");
+  alert("Fill all the above fields");
   return false;
 } else if (number.length !== 10) {
-  alert("Must be 10 digits");
+  alert("Mobile number contains 10 digits");
   return false;
 } else if (!/^[0-9]+$/.test(number)) {
-  alert("Enter numbers only");
+  alert("Enter numbers only in mobile number field");
   return false;
 } else {
   return true;
