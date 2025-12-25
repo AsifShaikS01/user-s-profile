@@ -8,6 +8,11 @@ h2 {
   color: white;
 }
 
+p {
+  color: white; 
+}
+
+
 input {
   display: block;
   margin: 10px auto;
