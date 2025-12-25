@@ -30,7 +30,7 @@ button {
   width: 300px;
   margin: 20px auto;
   padding: 30px;
-  border: 2px solid red;
+  border: 3px solid red;
   border-radius: 10px;
   position: relative;
   background-image: url('abstract-digital-grid-black-background.jpg'); 
@@ -42,9 +42,12 @@ button {
 .circle {
   width: 100px;
   height: 100px;
-  background-image: url('AsifShaikS01/user-s-profile/person.jpeg');
-  border-radius: 100%;
-  position: left;
+  background-image: url('AsifShaikS01/user-s-profile/person.jpeg'); 
+  background-size: cover;      
+  background-position: center; 
+  border-radius: 50%;          
+  position: absolute;          
   top: -15px;
-  left: calc(50% - 15px);
+  left: calc(50% - 50px);      
 }
+
