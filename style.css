@@ -41,8 +41,8 @@ button {
 }
 
 .circle {
-  width: 30px;
-  height: 30px;
+  width: 100px;
+  height: 70px;
   background: blue;
   border-radius: 100%;
   position: absolute;
