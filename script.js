@@ -1,7 +1,17 @@
 function generateTag() {
-  const name = document.getElementById("name").value.trim();
-  const number = document.getElementById("number").value.trim();
-  const email = document.getElementById("email").value.trim();
+  const name = document.getElementById("name").value;
+  const number = document.getElementById("number").value;
+  const email = document.getElementById("email").value;
+
+  if (!/^[0-9]+$/.test(number)) {
+        alert("Enter numbers only in Mobile Number field");
+        return false;
+      }
+
+  if (number.length !== 10) {
+      alert("Mobile number must be 10 digits");
+      return false;
+    }
 
   if (!name || !number || !email) {
     alert("Please fill all fields.");
@@ -12,11 +22,12 @@ function generateTag() {
   document.getElementById("tagNumber").textContent = number;
   document.getElementById("tagEmail").textContent = email;
 
-    if (!/^[0-9]+$/.test(number)) {
-        alert("Enter numbers only in Mobile Number field");
-        return false;
-      }
-
+  return false; 
+    }
+    document.getElementById("number").addEventListener("input", function() {
+      this.value = this.value.replace(/[^0-9]/g, ""); // removes non-numeric characters
+    });
+  
 
   const tag = document.getElementById("tag");
   tag.style.display = "block";
