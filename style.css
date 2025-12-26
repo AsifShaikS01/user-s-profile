@@ -52,8 +52,7 @@ button {
 
 .circle {
   width: 70px;
-  height: 70px;
-  background-image: url('man.png'); 
+  height: 70px; 
   background-size: cover;      
   background-position: center; 
   border-radius: 50%;          
