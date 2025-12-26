@@ -33,12 +33,12 @@ button {
 
 .gender-box {
   text-align: center;
-  margin-top: 10px;
+  margin-top: 3px;
   color: white;
 }
 
 .gender-box label {
-  margin: 0 3px;
+  margin: 0 1px;
   cursor: pointer;
 }
 
