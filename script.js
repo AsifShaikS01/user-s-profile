@@ -38,9 +38,9 @@ function generateTag() {
   // Set profile image based on gender
   const circle = document.querySelector(".circle");
   if (gender.value === "male") {
-    circle.style.backgroundImage = "url('man.jpg')";
+    circle.style.backgroundImage = "url('man.png')";
   }
-  
+
   if (gender.value === "female") {
     circle.style.backgroundImage = "url('female.jpg')";
   }
