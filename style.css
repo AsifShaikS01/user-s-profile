@@ -26,6 +26,17 @@ button {
   cursor: pointer;
 }
 
+.gender-box {
+  text-align: center;
+  margin-top: 10px;
+  color: white;
+}
+
+.gender-box label {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
 .tag-container {
   width: 300px;
   margin: 20px auto;
