@@ -39,7 +39,9 @@ function generateTag() {
   const circle = document.querySelector(".circle");
   if (gender.value === "male") {
     circle.style.backgroundImage = "url('man.jpg')";
-  } else if (gender.value === "female") {
+  }
+  
+  if (gender.value === "female") {
     circle.style.backgroundImage = "url('female.jpg')";
   }
 
