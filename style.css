@@ -24,6 +24,10 @@ input {
   display: inline-block;
   margin-right: 5px;
 }
+
+label {
+  color:white;
+}
   
 button {
   padding: 10px 20px;
