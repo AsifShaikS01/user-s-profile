@@ -28,6 +28,18 @@ input {
 label {
   color:white;
 }
+
+.gender-option {
+    display: flex;
+    align-items: center;   
+    gap: 8px;            
+    margin-bottom: 10px;   
+  }
+
+  .gender-option input {
+    margin: 0;             
+  }
+
   
 button {
   padding: 10px 20px;
