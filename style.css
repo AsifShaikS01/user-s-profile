@@ -58,6 +58,17 @@ button {
   cursor: pointer;
 }
 
+.bg-1 { background-image: url("bg1.jpg"); }
+.bg-2 { background-image: url("bg2.jpg"); }
+.bg-3 { background-image: url("bg3.jpg"); }
+.bg-4 { background-image: url("bg4.jpg"); }
+.bg-5 { background-image: url("bg5.jpg"); }
+.bg-6 { background-image: url("bg6.jpg"); }
+.bg-7 { background-image: url("bg7.jpg"); }
+.bg-8 { background-image: url("bg8.jpg"); }
+.bg-9 { background-image: url("bg9.jpg"); }
+.bg-10 { background-image: url("bg10.jpg"); }
+
 .tag-container {
   width: 300px;
   margin: 20px auto;
@@ -65,9 +76,8 @@ button {
   border: 3px solid red;
   border-radius: 10px;
   position: relative;
-  background-image: url('abstract-digital-grid-black-background.jpg'); 
-  background-size: cover;  
-  background-position: center; 
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 

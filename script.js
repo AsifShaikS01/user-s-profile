@@ -42,6 +42,28 @@ function generateTag() {
     circle.style.backgroundImage = "url('female.jpg')";
   }
 
+  const backgrounds = [
+  "bg-1", "bg-2", "bg-3", "bg-4", "bg-5",
+  "bg-6", "bg-7", "bg-8", "bg-9", "bg-10"
+];
+
+let currentBgIndex = 0;
+
+const changeBgBtn = document.getElementById("changeBgBtn");
+const tag = document.getElementById("tag");
+
+changeBgBtn.onclick = () => {
+  tag.classList.remove(backgrounds[currentBgIndex]);
+
+  currentBgIndex = (currentBgIndex + 1) % backgrounds.length;
+
+  tag.classList.add(backgrounds[currentBgIndex]);
+};
+
+changeBgBtn.style.display = "inline-block";
+
+tag.classList.add("bg-1");
+
   const tag = document.getElementById("tag");
   tag.style.display = "block";
 
